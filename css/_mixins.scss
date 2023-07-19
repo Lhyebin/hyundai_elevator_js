@@ -1,0 +1,15 @@
+$size-pc : 1200px;
+$size-gap : 30px;
+
+@mixin inner () {
+    max-width: $size-pc;
+    margin: 0 auto;
+    padding: 0 $size-gap/2;
+}
+
+@mixin btn () {
+    display: inline-block;
+    border: 1px solid $color-main;
+    color: $color-main;
+    padding: 9rem 26rem 8rem 30rem;
+}
